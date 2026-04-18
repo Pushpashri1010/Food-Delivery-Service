@@ -1,0 +1,17 @@
+{
+  "name": "food-delivery-backend-simulator",
+  "version": "1.0.0",
+  "description": "Simple backend simulator for testing food delivery app",
+  "main": "backend-simulator.js",
+  "scripts": {
+    "start": "node backend-simulator.js",
+    "dev": "nodemon backend-simulator.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
