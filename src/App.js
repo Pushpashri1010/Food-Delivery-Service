@@ -61,7 +61,7 @@ function AppContent() {
   const { isAuthenticated, loading } = useSelector((state) => state.auth);
 
   useEffect(() => {
-    //(*) Clear default user data first
+    // Clear default user data first
     clearDefaultUserData();
     
     // Only load user if there's a valid token (no default user)
